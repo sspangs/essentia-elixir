@@ -1,0 +1,23 @@
+# macOS
+.DS_Store
+
+# Elixir/Mix
+/_build/
+/deps/
+/doc/
+*.ez
+erl_crash.dump
+
+# Compiled NIF
+/priv/essentia_nif.so
+/priv/*.so
+/priv/*.dylib
+
+# Test fixtures (audio files can be large)
+/test/fixtures/
+
+# Editor
+.elixir_ls/
+.idea/
+*.swp
+*.swo
